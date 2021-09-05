@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE jsp>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Alkoholische Getränke</title>
-<link rel="stylesheet" href="../CSS/Style.css">
+<title>Ruhige Nacht</title>
+<link rel="stylesheet" href="../CSS/Produkt.css">
 </head>
 <body style="background-color: #000000">
 	<div class="container">
@@ -29,9 +29,16 @@
 			</nav>
 		</div>
 		<h1>
-			Hier findest du <br> <u>alkoholische Getränke</u> <br> für
-			jeden Geschmack!
+			Unsere <u>Ruhige Nacht</u>! 
 		</h1>
+	</div>
+	<div class= "wrapper">
+	<div>
+	<a href="Paket3.jsp"><img src="../IMG/Paket3.jpg" height="800px" width="auto"> </a>
+	</div>
+	<div>
+	<p>Einmal Cola sowie Fanta.<br> Zum Knabbern Chips, Haribo Goldbären, Snack-Mix <br> und Popcorn in süß und salzig.<br><br><br><br><br>3,99<p>
+	</div>
 	</div>
 </body>
 </html>

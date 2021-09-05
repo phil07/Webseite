@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE jsp>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Alkoholische Getränke</title>
-<link rel="stylesheet" href="../CSS/Style.css">
+<title>Frauenabend</title>
+<link rel="stylesheet" href="../CSS/Produkt.css">
 </head>
 <body style="background-color: #000000">
 	<div class="container">
@@ -29,9 +29,18 @@
 			</nav>
 		</div>
 		<h1>
-			Hier findest du <br> <u>alkoholische Getränke</u> <br> für
-			jeden Geschmack!
+			Unser <u>Frauenabend</u>! 
 		</h1>
+	</div>
+	<div class= "wrapper">
+	<div>
+	<a href="Paket1.jsp"><img src="../IMG/Paket1.jpg" height="800px" width="auto"> </a>
+	</div>
+	<div>
+	<p>Die geballte Ladung an Malibu, Baileys,<br> Maracuja-Nektar,
+	sowie drei 28 Black.<br> Dazu Haribo Goldbären und Snack-Mix <br>
+	für den kleinen Hunger.<br><br><br><br><br><br>1,99<p>
+	</div>
 	</div>
 </body>
 </html>

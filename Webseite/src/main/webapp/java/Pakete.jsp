@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE jsp>
 <html>
 <head>
@@ -7,10 +7,6 @@
 <title>Pakete</title>
 <link rel="stylesheet" href="../CSS/Style.css">
 <style>
-.one {
-	display: inline-table;
-	text-align: center;
-}
 </style>
 </head>
 <body style="background-color: #000000">
@@ -37,6 +33,32 @@
 		<h1>
 			Wähle eines unserer <u>Pakete</u><br> und rette deinen Abend!
 		</h1>
+		<div class="wrapper">
+			<div class="one">
+				<a href="Paket1.jsp"> <img src="../IMG/Paket1.jpg" alt="Frauenabend"
+					width="auto" height="500px">
+				</a>
+				<p>Frauenabend</p>
+			</div>
+			<div class="one">
+				<a href="Paket2.jsp"> <img src="../IMG/Paket2.jpg"
+					alt="Männerabend" width="auto" height="500px">
+				</a>
+				<p>Männerabend</p>
+			</div>
+			<div class="one">
+				<a href="Paket3.jsp"> <img src="../IMG/Paket3.jpg"
+					alt="Ruhiger Abend" width="auto" height="500px">
+				</a>
+				<p>Ruhiger Abend</p>
+			</div>
+			<div class="one">
+				<a href="Paket4.jsp"> <img src="../IMG/Paket4.jpg"
+					alt="Party" width="auto" height="500px">
+				</a>
+				<p>Party</p>
+			</div>
+		</div>
 	</div>
 </body>
 </html>

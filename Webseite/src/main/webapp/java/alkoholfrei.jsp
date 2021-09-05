@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE jsp>
 <html>
 <head>
@@ -70,9 +70,8 @@
 				<p>Orangensaft</p>
 			</div>
 			<div class="one">
-				<a href="RadlerAlkfrei.jsp"> <img
-					src="../IMG/RadlerAlkfrei.jpg" alt="Radler Alkoholfrei"
-					width="auto" height="375px">
+				<a href="RadlerAlkfrei.jsp"> <img src="../IMG/RadlerAlkfrei.jpg"
+					alt="Radler Alkoholfrei" width="auto" height="375px">
 				</a>
 				<p>Radler Alkoholfrei</p>
 			</div>
