@@ -31,13 +31,10 @@
 	<tr><td><h5>Email:</h5> </td><td><input Type ="text" name="email"></td></tr>
 	<tr><td><h5>Handynummer:</h5> </td><td><input Type ="text" name="handynummer"></td></tr>
 	<tr><td></td><td><input Type ="submit" name="register" value="Registrieren"></td>
-
-
-
-
-
+	<tr><td></td><td><a href="../jsp/LogInView.jsp"><input type="button" value="Einloggen" /></a></td>
 </table>
 </form>
+
 <!-- FOOTER -->
 		<jsp:getProperty property="startFooterAsHtml" name="sb" />
 </body>

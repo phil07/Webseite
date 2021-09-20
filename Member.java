@@ -41,6 +41,19 @@ public class Member {
 		if(handynummer.length()>256) handynummer = handynummer.substring(0,256);
 	}
 	
+	
+	public void deleteUser(String email, String passwort) throws SQLException {
+		String sql = "Delete from benutzer where email = "+ email +" and passwort = "+ passwort;
+		System.out.println(sql);
+		PreparedStatement myStat = this.dbConn.prepareStatement(sql);
+		myStat.setString(1, this.getEmail());
+		myStat.setString(2, this.getPasswort());
+		myStat.executeUpdate();
+		System.out.println("Nutzer wurde gelöscht");
+		
+	}
+		
+	
 	public boolean insertMemberIfNotExist() throws SQLException{
 		this.prepareAttributesForDB();
 		if(this.checkUserExists() == false) {
@@ -74,7 +87,7 @@ public class Member {
 	}
 
 
-	private boolean checkUserExists() throws SQLException {
+	public boolean checkUserExists() throws SQLException {
 		String sql  = "SELECT email FROM benutzer WHERE email = ?";
 		System.out.println(sql);
 		PreparedStatement myStat = this.dbConn.prepareStatement(sql);
