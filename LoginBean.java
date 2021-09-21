@@ -34,7 +34,7 @@ public class LoginBean {
  }
  
  public boolean checkUserExists() throws SQLException{
-	 String sql = "SELECT email from benutzer " + "WHERE email = ?";
+	 String sql = "SELECT email from benutzer WHERE email = ?";
 	 System.out.println(sql);
 	 PreparedStatement myStat = dbConn.prepareStatement(sql);
 	 myStat.setString(1, this.getEmail());

@@ -65,14 +65,8 @@ public class AppInstallAccountTable {
 	}
 	
 
-	public void deleteUser(char email, char passwort) throws SQLException {
-		String sql = "Delete from benutzer where email = " + email + " and passwort = " + passwort;
-		System.out.println(sql);
-		PreparedStatement prepStat = dbConn.prepareStatement(sql);
-		prepStat.executeUpdate();
-		System.out.println(email + " erfolgreich gelöscht");
 		
-	}
+	
 
 	public void insertFirstUser() throws SQLException{
 		String sql = "INSERT INTO benutzer " +

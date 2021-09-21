@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
+<script type="text/javascript"src="../js/Home.js"></script>
 <title>Insert title here</title>
 </head>
 <body>
@@ -25,13 +26,12 @@
 <!-- CONTENT -->
 <form action ="..\jsp\LoginAppl.jsp" method="post">
 <table>
-	<tr><td><h5>Email:</h5> </td><td><input Type ="text" name="email"
-	 value ="<jsp:getProperty name="login" property="email"/>"></td></tr>
+	<tr><td><h5>Email:</h5> </td><td><input Type ="text" name="email"></td></tr>
 	 
 	 
 	<tr><td><h5>Passwort: </h5></td><td><input Type ="password" name="passwort"></td></tr>
 	<tr><td></td><td><input Type ="submit" name="login" value="login"></td>
-	<tr><td></td><td><input Type ="submit" name="löschen" value="Account löschen"></td>
+	<tr><td></td><td><input Type ="submit" name="delete" value="delete"></td>
 	<tr><td></td><td><a href="../jsp/RegView.jsp"><input type="button" value="Registrieren" /></a></td>
 
 

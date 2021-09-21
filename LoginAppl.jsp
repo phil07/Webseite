@@ -31,12 +31,14 @@ if (login.equals("login")) {
 			response.sendRedirect("../jsp/HomeView.jsp");
 		} else {
 			lb.setLoggedIn(false);
-			response.sendRedirect("../jsp/LogInView.jsp");
+			response.sendRedirect("../jsp/RegView.jsp");
 		}
-		}else if(delete.equals("Account löschen")) {
-		boolean passwortOK = lb.checkPasswort();
-		if (passwortOK == true) {
-			lb.setEmail(lb.getEmail());
+}
+if(delete.equals("delete")) {
+			lb.setEmail(email);
+			lb.setPasswort(passwort);
+		boolean passwortOK = lb.checkEmailPasswort();
+		if (passwortOK) {
 			lb.deleteAccount();
 			lb.setLoggedIn(false);
 			response.sendRedirect("../jsp/RegView.jsp");
