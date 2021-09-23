@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
+<script type="text/javascript"src="../js/Home.js"></script>
 <title>Bier</title>
 </head>
 <body>
@@ -43,7 +44,7 @@
 				</div>
 				</div>
 				</div>	<br><br>	<br><br>	<br><br>
-			<h2>Weitere Prodkte</h2> 
+			<h2>Weitere Produkte</h2> 
 				<br><br>
 			<div class=line>
 			<div><img class="myLine" src="../IMG/Jack-Daniels-Old-No.-7-Tennessee-Whiskey.jpg" height="300px" width="auto"> 

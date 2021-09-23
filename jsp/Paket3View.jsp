@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="../css/index.css">
 <link rel= "stylsheet" type="text/css" href="../css/pakete.css">
 <script type="text/javascript"src="../js/Home.js"></script>
-<title>Paket2 | Männerabend</title>
+<title>Paket3 | Netflix &amp Chill</title>
 </head>
 <body>
 <jsp:useBean id="sb" class="jits.beans.StartseiteBean"
@@ -22,28 +22,29 @@
 		<br> <br>
 	<main class="main">
 			<div class="content">
-			<h2>Paket Männerabend</h2> <br> <br>
+			<h2>Paket Netflix &amp Chill</h2> <br> <br>
 			<ul class="produkte">
 				<li>
 					<div class="produkt">
-						<img class="produkt-image" src="../IMG/Paket2.jpg" alt ="pakete"/>
+						<img class="produkt-image" src="../IMG/Paket3.jpg" alt ="pakete"/>
 					<div class="produkt-name">
-					<a href="produkt.html">Männerabend </a>
+					<a href="produkt.html">Netflix &amp Chill </a>
 					</div>
 					<div class="produkt-marke">Pakete</div>
-					<div class="produkt-preis">61,00 Euro</div>
+					<div class="produkt-preis">15,00 Euro</div>
 					</div>
 			</ul>
 			</div>
-		<h4>Beschreibeung</h4><br>
+		<h4>Beschreibeung</h4><br><br>
 		<p>Inhalt: <br><br>
-		2x Jack Daniel´s 0,7L (40% vol.)<br>
-		3x Coca Cola 1L<br>
-		2x Chipsfrisch - Ungarisch<br>
+		1x Coca Cola 1L<br>
+		1x Fanta 1L<br>
+		1x Popcorn -Süß <br>
+		1x Popcorn - Gesalzen<br>
+		1x Chipsfrisch - Ungarisch<br>
 		1x Haribo - Goldbären<br>
-		1x Snack Mix - 8 Sorten<br><br><br>
+		1x Snack Mix - 8 Sorten<br><br><br><br>
 		</p>
-		
 		<h1>Ähnliche Produkte</h1>
 		<div class= line>
 			<div><a href="Paket1View.jsp"> <img class="myLine" src="../IMG/Paket1.jpg" height="300x" width="auto"></a>
@@ -54,11 +55,11 @@
 				</div>
 				</div>
 				
-			<div><a href="Paket3View.jsp"><img class="myLine" src="../IMG/Paket3.jpg" height="300px" width="auto"></a>
+			<div><a href="Paket2View.jsp"> <img class="myLine" src="../IMG/Paket2.jpg" height="300x" width="auto"></a>
 			<div class="myLine2">
-					<a href="Paket3View.jsp">Netflix &amp Chill</a>
+					<a href="Paket2View.jsp">Männerabend</a>
 			<div class="produkt-marke">Pakete</div>
-					<div class="produkt-preis">15,00 Euro</div>
+					<div class="produkt-preis">61,00 Euro</div>
 				</div>
 				</div>
 				
@@ -72,6 +73,7 @@
 				
 		</div>
 	</main>
+	
 		
 		
 <!-- FOOTER -->

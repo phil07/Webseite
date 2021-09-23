@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
 <script type="text/javascript"src="../js/Home.js"></script>
-<title>Malibu</title>
+<title>Skyy Vodka </title>
 </head>
 <body>
 
@@ -19,68 +19,47 @@
 <br> <br>
 	<main class="main">
 			<div class="content">
-			<h2>Malibu </h2> <br> <br>
+			<h2>Skyy Vodka </h2> <br> <br>
 			<ul class="produkte">
 				<li>
 					<div class="produkt">
-						<img class="produkt-image" src="../IMG/Malibu-Carribean-Rum-mit-Kokusnusslikör-07L-21-vol-Textur-300x300.jpg" height="800px" width="auto" alt ="Alkohol"/>
+						<img class="produkt-image" src="../IMG/Vodka-Sky-07L-Textur-300x300.jpg" height="800px" width="auto" alt ="Alkohol"/>
 					<div class="produkt-name">
-					<a href="produkt.html">Malibu 0,7L (21% Vol.) </a>
+					<a href="produkt.html">Skyy Vodka 0,7L (40% Vol.) </a>
 					</div>
 					<div class="produkt-marke">Alkohol</div>
-					<div class="produkt-preis">16,99 Euro</div>
+					<div class="produkt-preis">23,99 Euro</div>
 					</div>
 			</ul>
 			</div>
 
 		<h4>Beschreibeung</h4><br>
 		<p> <br><br>
-		Seit mehr als 350 Jahren wird auf der karibischen Insel Barbados in der West Indies Rum Distillery ein Rum hergestellt,
-		der sich durch seine besondere Finesse auszeichnet.<br>
-		Feine Noten von Zuckerrohr und Butterrum verleihen diesem Rum eine besondere Leichtigkeit, die ihn von den übrigen Rumsorten unterscheidet<br>
-		Diese Eigenschaften bilden eine hervorragende Grundlage für die Mischung mit exotischen Geschmackskomponenten,<br>
-		wie sie für die Herstellung von Malibu verwendet werden.<br>
-		Seit den frühen 80er Jahren, als Malibu sich zu einer internationalen Größe entwickelte, 
-		wird ausschließlich Rum aus Barbados und von höchster Qualität für die Produktion von Malibu eingesetzt.<br>
+		SKYY Vodka: Willkommen unter dem blauen Himmel Kaliforniens.<br>
+		SKYY Vodka wurde als vierfach destillierte und dreifach gefilterte Premiumspirituose entwickelt, 
+		die die gesamte Vodk- Kategorie neu interpretieren und gestalten sollte.<br>
+
+		Vom puristischen, kobaltblauen Flaschendesign, das bewusst mit den etablierten Vodka-Traditionen aus Russland und Osteuropa bricht,<br>
+		bis hin zu innovativen Lifestyle-Kampagnen hat es sich SKYY Vodka stets zur Aufgabe gemacht, 
+		bestehende Konventionen durch progressives und frisches Denken herauszufordern.Sierra Tequila Silver ist ein geruhter, klarer Tequila.<br> 
+		Sein volles, fruchtiges, 
+		frisches und von leichter Chilinote dominiertes Aroma spiegelt sowohl die Tequilana Weber Azul Agave wieder,<br>
+		als auch leichte Noten vom grünen Apfel und junger Ananas.<br>
+		Pfeffer Nuancen geben Sierra Tequila Silver das gewisse Etwas und machen ihn zu einem temperamentvollen Tequila.<br>
+		Sierra Tequila kommt aus der Destilería Sierra, die auf einer historischen Hacienda in Guadalajara, 
+		der Hauptstadt des Tequila, gelegen ist.<br>
 		<br><br><br><br>
 		</p>
 		
 	<h1>Ähnliche Produkte</h1>
-			<div class= line>
-			<div><a href="ThreeSixtyView.jsp"><img class="myLine" src="../IMG/Three Sixty.jpg" height="300px" width="auto"></a>
-			<div class="myLine2">
-					<a href="ThreeSixtyView.jsp">Three Sixty 0,7L</a>
-			<div class="produkt-marke">Alkohol</div>
-					<div class="produkt-preis">21,99 Euro</div>
-				</div>
-				</div>
-				
-				
-				<div><a href="BombayView.jsp"><img class="myLine" src="../IMG/Bombay.jpg" height="300px" width="auto"></a>
-			<div class="myLine2">
-					<a href="BombayView.jsp">Bombay Sapphire 0,7L</a>
-			<div class="produkt-marke">Alkohol</div>
-					<div class="produkt-preis">27,99 Euro</div>
-				</div>
-				</div>
-
-		
-			<div><a href="CaptainMorgenView.jsp"><img class="myLine" src="../IMG/Captain-Morgan-Gold-Spiced-07L-Tesxtur-300x300.jpg" height="300px" width="auto"></a>
+			<div class= line>	
+				<div><a href="CaptainMorgenView.jsp"><img class="myLine" src="../IMG/Captain-Morgan-Gold-Spiced-07L-Tesxtur-300x300.jpg" height="300px" width="auto"></a>
 			<div class="myLine2">
 					<a href="CaptainMorgenView.jsp">Captain Morgen 0,7L</a>
 			<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">17,99 Euro</div>
 				</div>
 				</div> 
-		</div>
-				
-			<div class= line>	
-			<div><a href="GorbatschowView.jsp"><img class="myLine" src="../IMG/Gorbatschow.jpg" height="300px" width="auto"></a>
-			<div class="myLine2">
-					<a href="GorbatschowView.jsp">Gorbatschow 0,7L</a>
-			<div class="produkt-marke">Alkohol</div>
-					<div class="produkt-preis">14,99 Euro</div>
-				</div></div>
 				
 			<div><a href="GordonView.jsp"><img class="myLine" src="../IMG/Gordon´s.jpg" height="300px" width="auto"></a>
 			<div class="myLine2">
@@ -98,7 +77,31 @@
 				</div>
 				</div>
 				</div>
-			
+				<div class= line>
+			<div><a href="ThreeSixtyView.jsp"><img class="myLine" src="../IMG/Three Sixty.jpg" height="300px" width="auto"></a>
+			<div class="myLine2">
+					<a href="ThreeSixtyView.jsp">Three Sixty 0,7L</a>
+			<div class="produkt-marke">Alkohol</div>
+					<div class="produkt-preis">21,99 Euro</div>
+				</div>
+				</div>
+				
+			<div><a href="MalibuView.jsp"><img class="myLine" src="../IMG/Malibu-Carribean-Rum-mit-Kokusnusslikör-07L-21-vol-Textur-300x300.jpg" height="300px" width="auto"></a>
+			<div class="myLine2">
+					<a href="MalibuView.jsp">Malibu 0,7L</a>
+			<div class="produkt-marke">Alkohol</div>
+					<div class="produkt-preis">16,99 Euro</div>
+				</div>
+				</div>
+
+			<div><a href="CaptainMorgenView.jsp"><img class="myLine" src="../IMG/Sierra Tequilla.jpg" height="300px" width="auto"></a>
+			<div class="myLine2">
+					<a href="CaptainMorgenView.jsp">Captain Morgen 0,7L</a>
+			<div class="produkt-marke">Alkohol</div>
+					<div class="produkt-preis">17,99 Euro</div>
+				</div>
+				</div> 
+		</div>
 				
 			<div class= line>
 			<div><a href="JaegermeisterView.jsp"><img class="myLine" src="../IMG/Jägermeister.jpg" height="300px" width="auto"></a>
