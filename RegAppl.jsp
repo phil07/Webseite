@@ -9,6 +9,11 @@
 </head>
 <body>
 <%
+Member member = (Member) session.getAttribute("member");
+if(member == null){
+member = new Member();
+session.setAttribute("member", member);
+}
 String vorname = request.getParameter("vorname");
 String nachname = request.getParameter("nachname");
 String stadt = request.getParameter("stadt");
@@ -18,12 +23,9 @@ String alter = request.getParameter("alter");
 String passwort = request.getParameter("passwort");
 String email = request.getParameter("email");
 String handynummer = request.getParameter("handynummer");
-
 String register = request.getParameter("register");
 if(register == null) register = "";
-
 if(register.equals("Registrieren")){
-	Member member = new Member();
 	member.setVorname(vorname);
 	member.setNachname(nachname);
 	member.setStadt(stadt);
@@ -33,12 +35,13 @@ if(register.equals("Registrieren")){
 	member.setPasswort(passwort);
 	member.setEmail(email);
 	member.setHandynummer(handynummer);
+	
+	session.setAttribute("member", member);
 	member.insertMemberIfNotExist();
-	response.sendRedirect("./RegView.jsp");
+	response.sendRedirect("./LogInView.jsp");
 }else{
 	response.sendRedirect("./RegView.jsp");
 }
-
 System.out.println(vorname);
 System.out.println(nachname);
 System.out.println(stadt);
@@ -48,8 +51,6 @@ System.out.println(alter);
 System.out.println(passwort);
 System.out.println(email);
 System.out.println(handynummer);
-
-
 %>
 </body>
 </html>

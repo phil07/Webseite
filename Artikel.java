@@ -23,6 +23,7 @@ public class Artikel {
 		this.preis = preis;
 		this.kategorie = kategorie;
 	}
+	
 
 	public int getAnr() {
 		return anr;
